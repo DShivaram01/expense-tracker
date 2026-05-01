@@ -246,40 +246,6 @@ React component  →  axios (api.js)  →  Express route  →  Controller  →  
 
 ---
 
-## Troubleshooting
-
-**"Cannot reach the backend"** — the server isn't running. Open a terminal in `server/` and run `npm run dev`.
-
-**"MongoDB connection error"** — your local MongoDB isn't running, or the Atlas connection string is wrong.
-- Local: start MongoDB (`mongod` or via Services on Windows)
-- Atlas: check the connection string and make sure your IP is whitelisted
-
-**Port 5000 already in use** — change `PORT` in `server/.env` to `5001` and update `client/.env`'s `VITE_API_URL` to match.
-
-**`npm install` errors** — delete `node_modules` and `package-lock.json`, then run `npm install` again.
-
----
-
-## 📸 Suggested Screenshots for Submission
-
-For your assignment writeup, take screenshots of:
-
-1. The empty dashboard (initial state)
-2. The "New Expense" modal open
-3. The dashboard with several expenses, both charts populated
-4. The budget edit modal
-5. The over-budget state (set a low budget, add expenses past it)
-6. The transactions list with a category filter applied
-7. A POST request in Thunder Client / Postman
-8. The MongoDB data viewed in MongoDB Compass
-
----
-
-## License
-
-MIT
-
----
 
 ## Author
 
