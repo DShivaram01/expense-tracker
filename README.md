@@ -6,7 +6,7 @@ A full-stack personal expense tracker that lets you log spending, categorize tra
 
 ---
 
-## ✨ Features
+## Features
 
 - **Add, view, and delete expenses** with description, amount, category, and date
 - **8 categories** with color-coded icons (Food, Transport, Shopping, Entertainment, Bills, Health, Education, Other)
@@ -22,7 +22,7 @@ A full-stack personal expense tracker that lets you log spending, categorize tra
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 **Frontend**
 - React 18 (with Hooks)
@@ -40,7 +40,7 @@ A full-stack personal expense tracker that lets you log spending, categorize tra
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 expense-tracker/
@@ -78,7 +78,7 @@ expense-tracker/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -143,7 +143,7 @@ The app opens automatically at **http://localhost:3000**.
 
 ---
 
-## 🔌 API Reference
+## API Reference
 
 Base URL: `http://localhost:5000/api`
 
@@ -180,7 +180,7 @@ Base URL: `http://localhost:5000/api`
 
 ---
 
-## 🧪 Testing the API
+## Testing the API
 
 The easiest way is the **Thunder Client** extension in VSCode (search "Thunder Client" in extensions, install, and click the lightning bolt icon).
 
@@ -225,7 +225,7 @@ curl -X POST http://localhost:5000/api/expenses \
 
 ---
 
-## 🧱 How It Works
+## How It Works
 
 ### Data flow
 
@@ -246,7 +246,7 @@ React component  →  axios (api.js)  →  Express route  →  Controller  →  
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 **"Cannot reach the backend"** — the server isn't running. Open a terminal in `server/` and run `npm run dev`.
 
@@ -275,12 +275,12 @@ For your assignment writeup, take screenshots of:
 
 ---
 
-## 📝 License
+## License
 
 MIT
 
 ---
 
-## 👤 Author
+## Author
 
 Built as a MERN stack assignment. Feel free to fork and extend.
